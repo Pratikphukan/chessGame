@@ -107,7 +107,7 @@ function move(numberOfSteps, direction) {
                 queen.position.y = temp1;
             }
             break;
-
+        default: document.write("Invalid input");
     }
 }
 
